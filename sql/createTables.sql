@@ -1,11 +1,11 @@
 CREATE TABLE clients (
-	id TINYINT unsigned NOT NULL,
+	id TINYINT unsigned NOT NULL UNIQUE,
 	name CHAR(20) NOT NULL,
 	PRIMARY KEY (id)
 ) ENGINE = InnoDB;
 
 CREATE TABLE sections (
-	id TINYINT unsigned NOT NULL,
+	id TINYINT unsigned NOT NULL UNIQUE,
 	client_id TINYINT unsigned NOT NULL,
 	name VARCHAR(255) NOT NULL,
 	PRIMARY KEY (id), 
@@ -14,7 +14,7 @@ CREATE TABLE sections (
 ) ENGINE = InnoDB;
 
 CREATE TABLE links (
-	id TINYINT unsigned NOT NULL,
+	id TINYINT unsigned NOT NULL UNIQUE,
 	section_id TINYINT unsigned NOT NULL,
 	name VARCHAR(255) NOT NULL,
 	PRIMARY KEY (id), 
