@@ -8,13 +8,13 @@
     $link_id      = $_POST['link_id'];      // Suppose <input type="text" name="link_id">
     $link_name    = $_POST['link_name'];    // Suppose <input type="text" name="link_name">
 
-    // Values to test with 
-    //$client_id = 112;
-    //$client_name = 'Randy';
-    //$section_id = 210;
-    //$section_name = 'I am a section';
-    //$link_id = 20;
-    //$link_name = 'http://iamalink.com';
+    // Values I tested with.
+    // $client_id = 112;
+    // $client_name = 'Randy';
+    // $section_id = 210;
+    // $section_name = 'I am a section';
+    // $link_id = 20;
+    // $link_name = 'http://iamalink.com';
 
     /***************************
             INSERT CLIENTS
