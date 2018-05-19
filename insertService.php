@@ -26,7 +26,7 @@
         if ($connection->query($sql_insert_client)) {
             echo "Insert into clients table was successful";
         } else {
-            echo "Error: " . $sql_insert_clients . "<br> . $connection->error";
+            echo "Error: " . $sql_insert_clients . "<br>" . $connection->error;
         }
     }
 
@@ -40,7 +40,7 @@
         if ($connection->query($sql_insert_section)) {
             echo "Insert into sections table was successful";
         } else {
-            echo "Error: " . $sql_insert_section . "<br> . $connection->error";
+            echo "Error: " . $sql_insert_section . "<br>" . $connection->error;
         }
     }
 
@@ -54,7 +54,7 @@
         if ($connection->query($sql_insert_link)) {
             echo "Insert into links table was successful";
         } else {
-            echo "Error: " . $sql_insert_link . "<br> . $connection->error";
+            echo "Error: " . $sql_insert_link . "<br>" . $connection->error;
         }
     }
 ?>
