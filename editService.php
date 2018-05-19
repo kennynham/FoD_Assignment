@@ -8,7 +8,7 @@
     $link_id      = $_POST['link_id'];      // Suppose <input type="text" name="link_id">
     $link_name    = $_POST['link_name'];    // Suppose <input type="text" name="link_name">
 
-    
+    // Values I tested with.
     // $client_id = 100;
     // $client_name = 'James Bond';
     // $section_id = 200;
